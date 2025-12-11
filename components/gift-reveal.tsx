@@ -25,7 +25,7 @@ export function GiftReveal() {
             ref={iframeRef}
             width="250"
             height="50"
-            src="https://www.youtube.com/embed/WDxVPg_AZ-k?rel=0&autoplay=1&loop=1&playlist=WDxVPg_AZ-k"
+            src="https://www.youtube.com/embed/QzLaNE-XomY?rel=0&autoplay=1&loop=1&playlist=QzLaNE-XomY"
             title="Background Music"
             frameBorder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -59,11 +59,11 @@ export function GiftReveal() {
       <div className="bg-card/60 backdrop-blur-md rounded-[2rem] p-10 border border-primary/30 shadow-2xl animate-pulse-glow">
         <div className="space-y-6">
           <p className="text-muted-foreground tracking-[0.4em] uppercase text-sm">
-            Чиний нууц Санта бол Хэлэх болоогүйээ ахахаха
+            Чиний нууц Санта бол ...{" "}
           </p>
 
           <h2 className="text-6xl md:text-8xl lg:text-9xl font-medium tracking-tight text-primary py-4">
-            Kyuko
+            Gegee
             <br />
             <span className="text-accent text-4xl md:text-5xl">танаа</span>
           </h2>
@@ -105,7 +105,7 @@ export function GiftReveal() {
           <span className="text-primary font-medium"> аз жаргалаар гэрэл </span>
           нэмэхийг хүслээ
         </p>
-        <p className="text-lg text-muted-foreground">хүлээлгэсэнд уучлаарай</p>
+
         <div className="h-px bg-gradient-to-r from-transparent via-primary/50 to-transparent" />
       </div>
 

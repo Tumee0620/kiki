@@ -36,7 +36,7 @@ export default function MonitaSurprise() {
               </div>
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight text-balance leading-tight">
                 Сайн уу
-                <span className="block text-primary mt-2">Kyuko</span>
+                <span className="block text-primary mt-2">Gegee</span>
               </h1>
             </div>
 
@@ -77,7 +77,7 @@ export default function MonitaSurprise() {
             <RevealButton onClick={handleReveal} isAnimating={isAnimating} />
 
             <p className="text-sm text-muted-foreground/50 tracking-widest uppercase pt-6 animate-shimmer">
-              ДАРААРАЙ ХӨӨРХНӨӨ
+              Энд дарж миний зүрхийг аваарай...
             </p>
           </div>
         ) : (
