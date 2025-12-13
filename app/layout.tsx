@@ -8,8 +8,8 @@ const _playfair = Playfair_Display({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Monita Surprise - Gegee",
-  description: "A special surprise reveal for gegee from Monita.",
+  title: "GOODBYE- HWASA",
+  description: "MR.S",
 };
 
 export default function RootLayout({

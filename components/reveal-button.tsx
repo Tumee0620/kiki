@@ -1,11 +1,11 @@
-"use client"
+"use client";
 
-import { Button } from "@/components/ui/button"
-import { Loader2, Heart } from "lucide-react"
+import { Button } from "@/components/ui/button";
+import { Loader2, Heart } from "lucide-react";
 
 interface RevealButtonProps {
-  onClick: () => void
-  isAnimating: boolean
+  onClick: () => void;
+  isAnimating: boolean;
 }
 
 export function RevealButton({ onClick, isAnimating }: RevealButtonProps) {
@@ -24,9 +24,9 @@ export function RevealButton({ onClick, isAnimating }: RevealButtonProps) {
       ) : (
         <>
           <Heart className="mr-3 h-6 w-6" fill="currentColor" />
-          Сантаг илчлэх
+          Нээхийн тулд дарна уу
         </>
       )}
     </Button>
-  )
+  );
 }

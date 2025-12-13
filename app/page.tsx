@@ -5,7 +5,7 @@ import { StarField } from "@/components/star-field";
 import { GiftReveal } from "@/components/gift-reveal";
 import { RevealButton } from "@/components/reveal-button";
 import { LiveChat } from "@/components/live-chat";
-import { Gift, Sparkles, Heart } from "lucide-react";
+import { Flower, Flower2, Gift, Sparkles } from "lucide-react";
 
 export default function MonitaSurprise() {
   const [isRevealed, setIsRevealed] = useState(false);
@@ -28,24 +28,24 @@ export default function MonitaSurprise() {
           <div className="text-center space-y-10 max-w-2xl">
             <div className="space-y-4">
               <div className="flex items-center justify-center gap-3 text-accent/60">
-                <Heart className="w-4 h-4" fill="currentColor" />
+                <Flower2 className="w-4 h-4" fill="currentColor" />
                 <p className="tracking-[0.4em] uppercase text-sm font-light">
-                  Monita Surprise
+                  Back to Mongolia
                 </p>
-                <Heart className="w-4 h-4" fill="currentColor" />
+                <Flower2 className="w-4 h-4" fill="currentColor" />
               </div>
               <h1 className="text-5xl md:text-7xl lg:text-8xl font-medium tracking-tight text-balance leading-tight">
                 Сайн уу
-                <span className="block text-primary mt-2">Gegee</span>
+                <span className="block text-primary mt-2">Халиунаа</span>
               </h1>
             </div>
 
             <div className="bg-card/50 backdrop-blur-sm rounded-3xl p-8 border border-border/30">
               <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-                Хэн нэгний бэлэг чамайг хүлээж байна
+                Миний бяцхан бэлэг...
                 <br />
                 <span className="text-foreground font-medium">
-                  Secret santa-г илчлэхийг хүсэж байна уу?
+                  Чамд зориулсан миний сэтгэлийн илэрхийлэл юм.
                 </span>
               </p>
             </div>
@@ -66,7 +66,7 @@ export default function MonitaSurprise() {
                   className="absolute -bottom-2 -left-4 w-6 h-6 text-accent animate-twinkle"
                   style={{ animationDelay: "0.5s" }}
                 />
-                <Heart
+                <Flower2
                   className="absolute top-1/2 -right-6 w-5 h-5 text-accent/80 animate-twinkle"
                   fill="currentColor"
                   style={{ animationDelay: "1s" }}
@@ -75,10 +75,6 @@ export default function MonitaSurprise() {
             </div>
 
             <RevealButton onClick={handleReveal} isAnimating={isAnimating} />
-
-            <p className="text-sm text-muted-foreground/50 tracking-widest uppercase pt-6 animate-shimmer">
-              Энд дарж миний зүрхийг аваарай...
-            </p>
           </div>
         ) : (
           <GiftReveal />
